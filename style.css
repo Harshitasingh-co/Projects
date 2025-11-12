@@ -1,0 +1,78 @@
+
+#navbar
+{
+    background-color: #80df13;
+   margin:0;
+   padding:0;
+   height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+body { margin:0; padding:0; font-family: Arial, Helvetica, sans-serif; }
+@media only screen and (max-width: 600px) {
+      .body{
+        padding: 10px; /* Reduced padding for mobile screens */
+      }
+    }
+   a{ margin-right: 200px; color: white; text-decoration: none;}
+ 
+  #welcome
+  { font-size: 60px;
+    height: 70px;
+    color: white;
+    background-color: #0c97e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+
+  #welcome:hover
+  {
+    background-color: #df5413;
+    color: black;
+    transform: scale(1.1);
+  }
+  body{
+   
+    background-image:url('movie.jpg');
+    background-size: cover;
+  }
+#intro
+{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#table div
+{
+   
+    color: rgb(251, 251, 251);
+    font-size: 40px;
+    text-align: center;
+    height: 10px;
+}
+caption {
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: tomato;
+}
+#plans
+{
+   
+    background-color: rgba(14, 88, 225, 0.445);
+}
+tr:hover {background-color: coral;}
+
+footer
+{
+    
+    color: white;
+    text-align: center;
+    
+}
